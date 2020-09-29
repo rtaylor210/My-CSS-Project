@@ -4,4 +4,53 @@
 
 body{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background-color: lightgray;
+}
+
+h2, p, .readme-wrapper{
+    text-align: center;
+}
+
+
+a{
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+    color: green;
+
+  }
+
+  span{
+    color: yellow;
+    font-weight: bold;
+  }
+
+  .boxes{
+    margin: 50px;
+    padding: 50px;
+    border: solid;
+    border-color: azure;
+    border-radius: 30%;
+    width: 30em;
+    display: inline-block;
+  }
+
+  #box1{
+      background-color: beige;
+
+  }
+
+  #box2{
+    background-color: blueviolet;
+}
+
+#box3{
+      background-color: chocolate;
+}
+
+#box4{
+      background-color: darkcyan;
 }
